@@ -144,5 +144,10 @@
             </plugin>
         </plugins>
     </build>
-
+<developers>
+<developer>
+<name>Thaiane</name>
+<email>oliveirathai@hotmail.com</email>
+</developer>
+</developers>
 </project>
