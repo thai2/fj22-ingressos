@@ -16,7 +16,10 @@
 						http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
 	<jpa:repositories base-package="br.com.caelum.ingresso" />
-
+	
+	<context:property-placeholder
+     	location="classpath:database-${profile:dev}.properties"/>
+	
 	<context:component-scan base-package="br.com.caelum.ingresso" />
 	<mvc:annotation-driven />
 	<mvc:default-servlet-handler/>
