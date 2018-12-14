@@ -214,16 +214,16 @@
 	<profiles>
 		<profile>
 			<id>coverage-analyze</id>
-			<activation>
-				<property>
-					<name>env.SONAR_INTEGRATION</name>
-				</property>
-			</activation>
-			<properties>
-				<sonar.host.url>${env.SONAR_URL}</sonar.host.url>
-				<sonar.organization>${env.SONAR_ORGANIZATION}</sonar.organization>
-				<sonar.login>${env.SONAR_LOGIN}</sonar.login>
-			</properties>
+<!-- 			<activation> -->
+<!-- 				<property> -->
+<!-- 					<name>env.SONAR_INTEGRATION</name> -->
+<!-- 				</property> -->
+<!-- 			</activation> -->
+<!-- 			<properties> -->
+<!-- 				<sonar.host.url>${env.SONAR_URL}</sonar.host.url> -->
+<!-- 				<sonar.organization>${env.SONAR_ORGANIZATION}</sonar.organization> -->
+<!-- 				<sonar.login>${env.SONAR_LOGIN}</sonar.login> -->
+<!-- 			</properties> -->
 
 			<build>
 				<plugins>
